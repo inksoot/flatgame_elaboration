@@ -21,17 +21,17 @@ public class clickManager : MonoBehaviour
             if (hit.collider != null)
             {
                 Debug.Log("CLICKED " + hit.collider.name);
-                ChangeSprite();
+                //ChangeSprite();
 
             }
         }
     }
 
-    public SpriteRenderer spriteRenderer;
-    public Sprite newSprite;
-    void ChangeSprite()
-    {
-        spriteRenderer.sprite = newSprite;
-        Debug.Log("sprite renderer activated");
-    }
+   // public SpriteRenderer spriteRenderer;
+   // public Sprite newSprite;
+   // void ChangeSprite()
+    //{
+    //    spriteRenderer.sprite = newSprite;
+    //    Debug.Log("sprite renderer activated");
+    //}
 }
